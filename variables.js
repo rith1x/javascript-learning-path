@@ -1,3 +1,9 @@
+const print = (inp) => { console.log(inp); };
+
+
+
+// VAR 
+
 var a = "apple";
 console.log(a); //apple
 a = "banana";
@@ -17,3 +23,12 @@ if (2 > 1) {
     a = "mango";
     console.log(a); //mango
 }
+
+
+//CONST
+
+const b = "Unchangeable";
+
+print(b);
+b = "Error pops"
+
